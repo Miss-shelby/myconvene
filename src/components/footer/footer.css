@@ -1,0 +1,32 @@
+.footer--happy {
+  height: 74px;
+  background-color: #000000;
+  padding: 0 100px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:#fff;
+}
+.footer--nav_links{
+  display: flex;
+}
+.footer--nav_links li{
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer--nav_links li:hover{
+  border-bottom: 3px solid #069FFA;
+  transition: 0.6s;
+}
+.footer--nav_links > li + li{
+  margin-left: 43px;
+}
+.footer--icons{
+  display: flex;
+}
+.footer--icons > * + *{
+  margin-left: 32.12px;
+}

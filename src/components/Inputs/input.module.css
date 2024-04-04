@@ -1,0 +1,42 @@
+.inputField {
+  width: 520px;
+  height:50px;
+  background-color: transparent;
+  border:none;
+  outline:none;
+  border-radius: 8px;
+  
+}
+.inputField[data-variant="primary"]::placeholder {
+  color: #FFF;
+  padding-left: 10px;
+}
+
+.inputField[data-variant="secondary"]::placeholder {
+  color: #FFF;
+  padding-left: 10px;
+}
+
+.inputField[data-variant="primary"]{
+  /* border: 1px solid #FFFF; */
+  border:1px solid  #929292;
+}
+.inputField[data-variant=secondary]{
+  /* border: 1px solid #FFFF; */
+  margin-top: 10px;
+  border:1px solid  #929292;
+}
+.inputField[data-variant=unique]{
+  /* border: 1px solid #FFFF; */
+  margin-top: 10px;
+  border:1px solid  #929292;
+  padding-left: 70px;
+  width: 720px;
+}
+.inputField[data-variant="tertiary"]{
+  background: #8A8A8A69;
+  width: 646px;
+  color:#fff;
+}
+
+

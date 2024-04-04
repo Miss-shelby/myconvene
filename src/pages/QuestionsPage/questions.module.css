@@ -1,0 +1,15 @@
+.wrapper{
+    background-color: #192231;
+}
+.navWrapper{
+    display: flex;
+    /* padding-top: 20px; */
+    /* height:1200px; */
+}
+.mainWrapper{
+    margin: 20px 0;
+    color:#CCCCCC;
+}
+.LeftNavWrapper{
+   height:auto;
+}

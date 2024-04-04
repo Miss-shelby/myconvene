@@ -1,0 +1,163 @@
+.user{
+    background-color: #192231;
+    width: 100%;
+   
+}
+.container{
+    /* height:431px; */
+    display: flex;
+}
+.profileSection{
+    width:100%;
+}
+.profileContainer{
+    background-color: #192231;
+    border-bottom: 1px solid #ccc;
+    height:431px;
+    width:100%;
+    border-radius: 10px;
+}
+.coverPhoto{
+    background-image: url('src/assets/images/coverphoto.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:299.45px;
+    max-width:1233px;
+     position: relative;
+}
+.fileInputWrapper {
+    position: relative;
+}
+
+.fileInput {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+} 
+
+.customFileButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #192231;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    margin-top:15rem;
+    left:80%;
+}
+.profilephtotContainer{
+    position: absolute;
+    top:60%;
+    left:3%;
+    width:152px;
+    height:152px;
+}
+.profileContainer img{
+    width:100%;
+    height:100%;
+}
+.btnWrapper button{
+    background-color: transparent;
+    border:1px solid #ccc;
+    color:#ccc;
+    font-size: 15px;
+    padding: 8px 17px;
+}
+.userProfile{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.username{
+    font-size: 30px;
+    color:#ccc;
+    padding-left: 150px;
+}
+.username span{
+    display: block;
+    font-size: 15px;
+}
+.userAbout{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 20px 0;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    /* width:260px; */
+    height:399px;
+    color:#ccc;
+    border:1px solid #ccc;
+    padding:39px 5px 53px 22px ;
+    border-radius: 10px;
+
+}
+.About h6{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.userInfo{
+    font-size: 14px;
+}
+.userInfo > *+*{
+    margin-top: 35px;
+}
+.userInfo li img{
+    margin-right: 10px;
+}
+.userEngagements{
+    border: 1px solid #ccc;
+    color:#ccc;
+    width:574px;
+    padding: 30px 31px 38px 31px;
+    height:219px;
+    border-radius: 10px;
+    margin: 0 35px;
+}
+.meetups{
+    display: flex;
+    justify-content: space-between;
+}
+.userEngagements > *+*{
+    margin-top: 37px;
+}
+.numbers{
+    background-color: #101723;
+    padding: 5px;
+    border-radius: 12px;
+    color:#ccc;
+    font-size: 10px;
+}
+.admins{
+    border: 1px solid #ccc;
+    color:#ccc;
+    border-radius: 10px;
+    height:234px;
+    padding:20px 65px 24px 25px;
+}
+.admins h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.admin{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 15px;
+    font-family: nurito;
+}
+.adminName{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.adminName span{
+    font-size: 10px;
+    display: block;
+}
